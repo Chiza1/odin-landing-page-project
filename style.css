@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+span {
+    color: black;
+}
+
+.container {
+    background-color: #D07000;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    display: flex;
+    width: 100px;
+    height: auto;
+    margin-right:auto;
+    padding-left: 10px;
+
+}
+
+.links {
+    display: flex;
+    align-content: center;
+    gap: 50px;
+    padding-right: 30px;
+    padding-top: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.herotext {
+    background-color: #D07000;
+    height: 500px;
+    display: flex;
+    
+}
+.photo {
+    
+    align-self: center;
+    padding-left: 300px;
+}
+
+.cont {
+    color: white;
+    padding: 150px;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.p1 {
+    font-size: 20px;
+    margin-top: -10px;
+}
+.btn-1 {
+   font-size: 20px;
+   border-radius: 10px;
+   border-color: rgb(40, 184, 184);
+}
+.blog {
+        text-align: center;
+        font-size: 30px;
+        font-weight: 600;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+    .illustration {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        height: 120px;
+        width: auto;
+    }
+
+    .image {
+        border-radius: 15px;
+        border: 2px solid rgb(24, 127, 223)
+    }
+    .quote {
+        background-color:rgb(245, 239, 232)
+    }
+
+    .title {
+        display: flex;
+       font-size: 20px;
+       gap: 50px;
+       justify-content: center;
+       padding-left: 500px;
+       padding-right: 500px;
+    }
+
+
+    .waste {
+        text-align: center;
+        font-size: 40px;
+        padding-top: 30px;
+    }
+
+    .ref {
+        text-align: right;
+        padding-right: 280px;
+        padding-bottom: 50px;
+    }
+
+    .cta {
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        padding: 50px;
+        margin: 100px;
+        margin-left: 600px;
+        width: fit-content;
+        background-color: rgb(40, 184, 184);
+        color: white;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+
+.join {
+    text-align: center;
+    align-items: flex-start;
+}
+
+.copy {
+    text-align: center;
+    padding:30px;
+    background-color: #D07000;
+    margin-bottom:0;
+}
